@@ -1,0 +1,27 @@
+.tituloPagina {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 15rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.tituloPagina--patrimonio {
+  background-image: url(/assets/img/patrimonio-titulo.jpg);
+}
+
+.tituloPagina--lendas {
+  background-image: url(/assets/img/lendas-titulo.jpg);
+}
+
+.tituloPagina--contato {
+  background-image: url(/assets/img/contato-titulo.jpg);
+  background-position: top;
+}
+
+.tituloPagina h1 {
+  color: var(--cor-bgBbody);
+  text-align: center;
+  font-size: 2.5rem;
+}

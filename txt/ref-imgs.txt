@@ -1,0 +1,46 @@
+Fontes das imagens utilizadas no projeto
+
+=========== Página Inicial ===========
+
+- arte-destaque1.png
+fonte: https://www.behance.net/gallery/34208803/A-serpente-de-Sao-Luis
+
+-arte-destaque2.png
+https://g1.globo.com/ma/maranhao/vem-ver-pequeno/noticia/2020/12/16/artista-maranhense-ganha-destaque-internacional-com-pinturas-a-base-de-carvao.ghtml
+
+-arte-destaque3.png
+https://www.instagram.com/willbarros
+
+=========== Patrimônio ===========
+
+- patrimonio-titulo.jpg
+fonte: https://commons.wikimedia.org/wiki/File:Cazumb%C3%A1s,_Feiticeiros_da_Floresta_-_Bumba_Boi_Unidos_de_santa_F%C3%A9,_Capela_de_S%C3%A3o_Pedro,_Madre_de_Deus,_S%C3%A3o_Lu%C3%ADs_-_Maranh%C3%A3o,_junho,_2013.jpg
+
+- bumbameuboi.jpg
+fonte: http://portal.iphan.gov.br/galeria/detalhes/584
+
+- tambor.jpg
+fonte:
+http://portal.iphan.gov.br/galeria/detalhes/92
+- capoeir.png
+fonte: http://portal.iphan.gov.br//uploads/publicacao/plano_de_salvaguarda_da_capoeira_do_maranhao.pdf
+
+=========== Lendas ===========
+
+- lendas-titulo.jpg
+fonte: https://silviatereza.com.br/wp-content/uploads/2021/07/IMG-20210721-WA0107.jpg
+
+-serpente-lenda.jpeg
+fonte: https://airtonmarinhoxilogravura.blogspot.com/2011/03/lendas-e-mitos.html
+
+-carruagem.jpg
+fonte: https://airtonmarinhoxilogravura.blogspot.com/2011/03/lendas-e-mitos.html
+
+-domsebastiao.png
+fonte:https://pt.wikipedia.org/wiki/Sebasti%C3%A3o_I_de_Portugal#/media/Ficheiro:Sebasti%C3%A3o_de_Portugal,_c._1571-1574_-_Crist%C3%B3v%C3%A3o_de_Morais.png
+
+=========== Contato ===========
+
+- contato-titulo.jpg
+fonte:https://unsplash.com/s/photos/email?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  

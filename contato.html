@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | serpente</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/cabecalho.css">
+  <link rel="stylesheet" href="assets/css/titulo.css">
+  <link rel="stylesheet" href="assets/css/contato.css">
+  <link rel="stylesheet" href="assets/css/botao.css">
+  <link rel="stylesheet" href="assets/css/rodape.css">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Scripts -->
+  <script src="/js/main.js" defer></script>
+</head>
+<body>
+  <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteudo principal</a>
+  <header class="cabecalho">
+    <div class="container container--cabecalho">
+      <a class="logo" href="index.html">
+        <div class="logo__letras">
+          <span style="--i:1;">s</span>
+          <span style="--i:2;">e</span>
+          <span style="--i:3;">r</span>
+          <span style="--i:4;">p</span>
+          <span style="--i:5;">e</span>
+          <span style="--i:6;">n</span>
+          <span style="--i:7;">t</span>
+          <span style="--i:8;">e</span>
+        </div>
+      </a>
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item"><a class="menu__link" href="index.html">início</a></li>
+          <li class="menu__item"><a class="menu__link" href="conteudo-patrimonio.html">Patrimônio</a></li>
+          <li class="menu__item"><a class="menu__link" href="conteudo-lendas.html">Lendas</a></li>
+          <li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="contato container">
+      <div class="chamadaContato">
+        <h1 class="chamadaContato__titulo">Divulgue a sua arte!</h1>
+        <h2 class="chamadaContato__texto">Preencha seus dados e envie uma mensagem.</h2>
+      </div>
+      <div class="form">
+        <form class="contato__form">
+          <h2 class="form__titulo">Formulário de Contato</h2>
+          <div class="form__campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo..." required>
+          </div>
+          <div class="form__campo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu email..." required>
+          </div>
+          <div class="form__campo">
+            <label for="telefone">Telefone:</label>
+            <input type="telefone" id="telefone" placeholder="(98)5555-5555" required>
+          </div>
+          <div class="form__campo">
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="" id="mensagem" cols="70" rows="5" class="input-padrao" placeholder="Deixe sua mensagem..." required></textarea>
+          </div>
+          <div class="form__checkbox">
+            <input type="checkbox" value="receberDestaques" id="receberDestaques" checked>
+            <label for="receberDestaques">Receber destaques por email</label>
+          </div>
+          <div class="form__campo">
+            <button class="botao botao--enviar" type="submit" onclick="agradecimento()">
+              Enviar mensagem
+            </button>
+          </div>
+        
+        </form>
+      </div>
+    </section>  
+  </main>
+  <footer class="rodape">
+    <div class="container container--rodape">
+      <div class="infoSite">
+        <p class="infoSite__logoAlt">serpente</p>
+        <p class="infoSite__texto">©2021 Serpente</p>
+        <p class="infoSite__texto">Site criado por <span>Maíra Costa</span> para o <a href="https://www.inova.ma.gov.br/trilhas" target="_blank">Programa Trilhas</a>.</p>
+      </div>  
+      <div class="social">
+        <a class="social__icone" href="https://www.linkedin.com/in/ma%C3%ADra-costa-a6a00421b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="social__icone" href="https://github.com/maiccst" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="social__icone" href="https://www.instagram.com/mairaccst/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>    
+  </footer>
+</body>
+</html>

@@ -1,0 +1,165 @@
+/*Opção de pular a nevegação. Fonte: curso da Alura Acessibilidade Web Parte 1*/
+.pularNavegacao,
+.pularNavegacao:active,
+.pularNavegacao:focus,
+.pularNavegacao:hover {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  display: block;
+  color: transparent;
+  position: absolute;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.topico {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.topico__titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 1.20rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.topico__imagem {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);  
+}
+
+.topico__texto--dividir {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.topico__texto--indentado {
+  text-indent: 1.875rem;
+  position: relative;
+}
+
+
+/*Aspas estilizadas inspiradas no projeto do NLW Origins Six da Rocketseat*/
+.aspas {
+  color: var(--cor-triadica-02);
+  font: 700 2.5rem serif;
+  left: -1.875rem;
+  position: absolute;
+  top: -0.375rem;
+}
+
+.topico__fonte {
+  display: block;
+  margin-top: 1rem;
+}
+
+/*Conteudo extra*/
+.extra {
+  margin-bottom: 2rem;
+}
+
+.topico--extra {
+  background-color: var(--cor-bgExtra);
+}
+
+.extra__titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 1.20rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.extra__titulo, 
+.extra__conteudo {
+  color: var(--cor-bgBbody);
+}
+
+.extra__video {
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 56.5%; /*Percentagem ideal para, nesse caso específico, não deixar bordas pretas no vídeo.*/
+  
+}
+
+.extra__video > iframe {
+  position: absolute; 
+  top: 5%; 
+  left: 5%; 
+  width: 90%; 
+  height: 90% 
+}
+
+/*====== Media Queries ======*/
+
+@media  screen and (min-width: 768px) {
+  .topico {
+    padding: 3rem;
+  }
+
+  .topico__texto--dividir {
+    flex-direction: row;
+  }
+
+  .textoDividido {
+    width: 50%;
+  }
+
+  
+}
+
+@media screen and (min-width: 992px) {
+  .topico {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .topico--direita {
+    flex-direction: row-reverse;
+  }
+
+  .topico__titulo {
+    text-align: left;
+  }
+
+  .topico__texto--dividir {
+    flex-direction: column;
+  }
+
+  .textoDividido {
+    width: 100%;
+  }
+
+  /* .topico__texto--segundoParagrafo {
+    margin-top: 1rem;
+  } */
+
+  .topico__imagem {
+    display: block;
+    max-width: 400px;
+    height: 267px;
+    align-self: center;
+  }
+
+  .extra__titulo {
+    text-align: center;
+  }
+
+  .topico--extra {
+    background-color: var(--cor-bgExtra);
+    flex-direction: column;
+  }
+
+}

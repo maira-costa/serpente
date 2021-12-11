@@ -1,0 +1,97 @@
+/*======= Header ======*/
+.cabecalho {
+  background: var(--cor-bgHeader);
+  width: 100%;
+}
+
+.container--cabecalho {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 8rem;
+}
+
+/*======= Logo: Efeito de onda inspirado no vídeo https://www.youtube.com/watch?v=m1ZKHPbnyjo ======*/
+.logo__letras {
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+
+.logo__letras span {
+  display: inline-block;
+  color: var(--cor-logo);
+  font-family: var(--fonte-logo);
+  font-size: 2.5rem;
+  text-transform: lowercase;
+}
+
+.logo__letras:hover span {
+  animation: animate 2s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i)); 
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: translateY(0px);
+  }
+  20%
+  {
+    transform: translateY(-20px);
+  }
+  40%, 100%
+  {
+    transform: translateY(0px);
+  }
+}
+
+/*======= Menu ======*/
+.menu__lista {
+  display: flex;
+  gap: 2rem;
+}
+
+.menu__item {
+  transition: 0.4s ease-in-out;
+}
+
+.menu__link {
+  color: var(--cor-bgBbody);
+  position: relative;
+  transition: color 0.4s;
+}
+
+.menu__link:hover,
+nav ul li a.active {
+  color: var(--cor-logo);
+}
+
+.menu__link::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: var(--cor-logo);
+
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+
+  transition: width 0.4s;
+}
+
+.menu__link:hover::after,
+nav ul li a.active::after {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container--cabecalho {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-between;
+  }
+}

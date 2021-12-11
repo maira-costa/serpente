@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | serpente</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/cabecalho.css">
+  <link rel="stylesheet" href="assets/css/style-index.css">
+  <link rel="stylesheet" href="assets/css/botao.css">
+  <link rel="stylesheet" href="assets/css/rodape.css">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Scripts -->
+  <script src="/js/main.js" defer></script>
+</head>
+<body>
+  <a class="pularNavegacao" href="#conteudoPrincipal">Pular para conteudo principal</a>
+  <header class="cabecalho">
+    <div class="container container--cabecalho">
+      <a class="logo" href="index.html">
+        <div class="logo__letras">
+          <span style="--i:1;">s</span>
+          <span style="--i:2;">e</span>
+          <span style="--i:3;">r</span>
+          <span style="--i:4;">p</span>
+          <span style="--i:5;">e</span>
+          <span style="--i:6;">n</span>
+          <span style="--i:7;">t</span>
+          <span style="--i:8;">e</span>
+        </div>
+      </a>
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item"><a class="menu__link" href="index.html">Início</a></li>
+          <li class="menu__item"><a class="menu__link" href="conteudo-patrimonio.html">Patrimônio</a></li>
+          <li class="menu__item"><a class="menu__link" href="conteudo-lendas.html">Lendas</a></li>
+          <li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="inicio container">
+      <div class="chamada">
+        <div class="conteudo__chamada">
+          <h1 class="chamada__titulo" id="conteudoPrincipal">Aqui se divulga a cultura popular <span>maranhense</span>.</h1>
+          <h2 class="chamada__texto">Quer ter a sua arte exposta na nossa página?</h2>
+          <a class="botao botao--chamada" href="contato.html">Entre em contato!</a>
+        </div>
+      </div>
+      <div class="destaque">
+        <div class="conteudo__destaque">
+          <h2 class="destaque__titulo">Obras em destaque</h3>
+          <div class="destaque__imagens" id="slider">
+            <div class="destaque__imagem">
+              <figure class="destaque1 selected">
+                <img class="imagem" src="assets/img/arte-destaque1.png" alt="Carta ás do baralho com ilutração de três pessoas sendo envolvidas por serpente">
+                <figcaption class="destaque__legenda">Ilustração de Romildo Rocha</figcaption>
+              </figure>
+            </div>
+            <div class="destaque__imagem">
+              <figure class="destaque2">
+                <img class="imagem" src="assets/img/arte-destaque2.png" alt="Desenho realista em carvão sobre papel de homem idoso com semblante entristecido">
+                <figcaption class="destaque__legenda">Desenho em carvão de Uendell Rocha</figcaption>
+              </figure>
+            </div>
+            <div class="destaque__imagem">
+              <figure class="destaque3">
+                <img class="imagem" src="assets/img/arte-destaque3.png" alt="Pintura em tinta acrílica de um homem com vários braços e pernas simulando movimento da capoeira">
+                <figcaption class="destaque__legenda">Pintura acrílica de Will Barros</figcaption>
+              </figure>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div class="container container--rodape">
+      <div class="infoSite">
+        <p class="infoSite__logoAlt">serpente</p>
+        <p class="infoSite__texto">©2021 Serpente</p>
+        <p class="infoSite__texto">Site criado por <span>Maíra Costa</span> para o <a href="https://www.inova.ma.gov.br/trilhas" target="_blank">Programa Trilhas</a>.</p>
+      </div>  
+      <div class="social">
+        <a class="social__icone" href="https://www.linkedin.com/in/ma%C3%ADra-costa-a6a00421b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="social__icone" href="https://github.com/maira-costa" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="social__icone" href="https://www.instagram.com/mairaccst/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>    
+  </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+:root{
+
+  /*====== Cores  ======*/
+  --cor-logo: #FF2533;
+  --cor-triadica-01: #FFB848;
+  --cor-triadica-02: #302270;
+  --cor-bgBbody: #FAFAFA;
+  --cor-preto: #161616;
+  --cor-bgHeader: #161616;
+  --cor-bgRodape: #FFB848;
+  --cor-bgExtra: #161616;
+
+  /*====== Fontes ======*/
+  --fonte-logo: Homenaje, sans-serif;
+  --fonte-titulo: Poppins, sans-serif;
+  --fonte-body: 'DM Sans', sans-serif;
+}
+
+
+body {
+  background: var(--cor-branco);
+  color: #161616;
+  font-family: var(--fonte-body);
+}
+
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+a.externo {
+  color: var(--cor-logo);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/*====== Media Queries ======*/
+
+@media screen and (min-width: 768px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1120px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+  
+
+
+
