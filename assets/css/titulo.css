@@ -8,16 +8,11 @@
 }
 
 .tituloPagina--patrimonio {
-  background-image: url(/assets/img/patrimonio-titulo.jpg);
+  background-image: url(../img/patrimonio-titulo.jpg);
 }
 
 .tituloPagina--lendas {
-  background-image: url(/assets/img/lendas-titulo.jpg);
-}
-
-.tituloPagina--contato {
-  background-image: url(/assets/img/contato-titulo.jpg);
-  background-position: top;
+  background-image: url(../img/lendas-titulo.jpg);
 }
 
 .tituloPagina h1 {
